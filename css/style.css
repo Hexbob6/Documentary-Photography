@@ -59,6 +59,20 @@
 	width: auto;
 	height: auto;
 	display: block;
+/*
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: all 0.5s ease;
+*/
+}
+
+.gamma-gallery li img:hover {
+/*
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+*/
 }
 
 .gamma-description {
@@ -78,6 +92,7 @@
 	-ms-transition: opacity 0.4s ease-in-out;
 	-o-transition: opacity 0.4s ease-in-out;
 	transition: opacity 0.4s ease-in-out;
+/*    pointer-events: none;*/
 }
 
 .no-touch .gamma-gallery li:hover .gamma-description {
