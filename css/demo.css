@@ -80,4 +80,18 @@ a {
 
 .main > header p{
 	text-align: center;
+    width: 95%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+
+.main > header hr{
+    height: 2px;
+    background: black;
+    border: 0;
+    margin: 20px auto 20px auto;
+    width: 30%;
 }
